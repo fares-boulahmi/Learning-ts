@@ -17,6 +17,8 @@ export type Pet = {
   photo: string;
 };
 
+export type PetOmit = Omit<Pet, "id">;
+
 /*
 CHALLENGE: Fix the Pet type!
 
